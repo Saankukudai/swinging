@@ -1,0 +1,124 @@
+/* انا حاتط البادي ليا انت متستخدمووووووووووووووووووووووووش  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*  دي الصفحه والخلفيه والكلام دا  */
+
+section {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    scroll-snap-align: start;
+}
+
+
+/* صور الصفحه او الكروت سميها زي ما تسميها  */
+
+.ALawlimg {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*  التعتيم الي لو جيت بالماوس عليه بيظهر  */
+
+.ALawlimg :hover {
+    background-position: center;
+    text-align: center;
+    width: 100vh height: auto position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* الانتقال الالي للصفحه وبيخليها في النص تقريباً وعلى حسب طول العنصر  */
+
+.alsfha {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+/* العنصر الاول  */
+
+.ALawl {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.673) 30%, #00000094), url('مكمل غذائي.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: center;
+    margin-block: 2%;
+}
+
+
+/* العنصر التاني  */
+
+.ALtany {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.673) 30%, #00000094), url('البروتين.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: center;
+    margin-block: 2%;
+}
+
+
+/* العنصر الثالث */
+
+.ALtalt {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.673) 30%, #00000094), url('الكيرياتين.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: center;
+    margin-block: 2%;
+}
+
+
+/* العنصر الرابع */
+
+.ALrapA {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.673) 30%, #00000094), url('النحافه.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: center;
+    margin-block: 2%;
+}
+
+
+/* العنصر الخامس */
+
+.ALkams {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.673) 30%, #00000094), url('الواي\ بروتين.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: center;
+    margin-block: 2%;
+}
+
+
+/* التحكم في الكتابه  */
+
+.ALawlp {
+    letter-spacing: 1px;
+    width: 100%;
+    font-size: 25px;
+    padding: 30px 30px;
+    color: rgb(248, 240, 225);
+    text-shadow: black;
+    display: inline;
+    background-size: contain;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
